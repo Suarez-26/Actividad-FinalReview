@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Admin - Hotel El Rincón del Carmen</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--barra de navegación-->
+<header class="cabecera">
+    <div class="navbar-contenedor">
+        <div class="logo">
+            <h1>Hotel El Rincón del Carmen</h1>
+        </div>
+        <nav class="navegacion">
+            <a href="index.html">Inicio</a>
+            <a href="reservas.html">Reservas</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="#" onclick="logoutUsuario()">Cerrar sesión</a>
+        </nav>
+        <div class="usuario-saludo" id="usuario-saludo"></div>
+    </div>
+</header>
+    
+    <main>
+        <section class="admin-habitaciones">
+            <h2>Gestión de Habitaciones</h2>
+            <button onclick="agregarHabitacion()">Agregar nueva habitación</button>
+            <div id="admin-habitaciones"></div>
+        </section>
+
+        <section class="admin-reservas">
+            <h2>Gestión de Reservas</h2>
+            <p>Para cancelar reservas de clientes, se puede eliminar la reserva desde la sección de habitaciones.</p>
+        </section>
+    </main>
+
+    <!-- ====== FOOTER ====== -->
+    <footer class="pie-pagina">
+        <div class="footer-contenido">
+        <div class="columna">
+            <h4>Hotel El Rincón del Carmen</h4>
+            <p>Experiencia de lujo y confort frente al mar. Tu descanso, nuestro compromiso.</p>
+        </div>
+        <div class="columna">
+            <h4>Enlaces rápidos</h4>
+            <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="reservas.html">Reservas</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="columna">
+            <h4>Contáctanos</h4>
+            <p>📍 Calle 123, Cartagena, Colombia</p>
+            <p>📞 +57 312 456 7890</p>
+            <p>✉️ contacto@hotelrincondelcarmen.com</p>
+        </div>
+        </div>
+        <div class="footer-copy">
+        © 2025 Hotel El Rincón del Carmen. Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <script src="js/usuarios.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+</html>

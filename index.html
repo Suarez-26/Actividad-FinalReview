@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel El Rincón del Carmen</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--barra de navegación-->
+<header class="cabecera">
+    <div class="navbar-contenedor">
+        <div class="logo">
+          <h1>Hotel El Rincón del Carmen</h1>
+        </div>
+        <nav class="navegacion">
+            <a href="index.html">Inicio</a>
+            <a href="reservas.html">Reservas</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="checkin.html">Check In</a>
+        </nav>
+        <div class="usuario-saludo" id="usuario-saludo"></div>
+        <button id="boton-salir">Salir</button>
+    </div>
+</header>
+            <!--Landing page-->
+<section class="seccion-hero">
+    <div class="hero-overlay">
+      <div class="hero-contenido">
+        <h1>Tu Santuario de Paz y Confort</h1>
+        <p>Experimenta una estancia inolvidable en el corazón de la ciudad, donde el lujo y la comodidad se encuentran</p>
+        <a href="reservas.html" class="btn-registro">Reservar Ahora</a>
+      </div>
+    </div>
+</section>
+
+    <main>
+        <!-- carrusel de habitaciones-->
+        <section class="habitaciones-section">
+            <h2 class="titulo-seccion">Nuestras Habitaciones</h2>
+            <div class="carrusel">
+              <div class="slides">
+        
+                <!-- Habitación 1 -->
+                <div class="slide">
+                  <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Suite Deluxe">
+                  <div class="info">
+                    <h3>Suite Deluxe</h3>
+                    <p>Espaciosa suite con vista panorámica, jacuzzi privado y todas las comodidades de lujo.</p>
+                    <div class="servicios">
+                      <span>👥 2-4 personas</span>
+                      <span>🛏️ 2 camas</span>
+                      <span>📶 WiFi</span>
+                      <span>🍸 Minibar</span>
+                    </div>
+                    <div class="precio">
+                      <span class="valor">$250,000</span><span class="noche"> / noche</span>
+                    </div>
+                    <button class="btn-reservar">Reservar</button>
+                  </div>
+                </div>
+        
+                <!-- Habitación 2 -->
+                <div class="slide">
+                  <img src="images/image2.png" alt="Habitación Ejecutiva">
+                  <div class="info">
+                    <h3>Habitación Ejecutiva</h3>
+                    <p>Perfecta para viajes de negocios, con escritorio, minibar y vista al mar.</p>
+                    <div class="servicios">
+                      <span>👤 1-2 personas</span>
+                      <span>🛏️ 1 cama</span>
+                      <span>📶 WiFi</span>
+                      <span>☕ Café</span>
+                    </div>
+                    <div class="precio">
+                      <span class="valor">$180,000</span><span class="noche"> / noche</span>
+                    </div>
+                    <button class="btn-reservar">Reservar</button>
+                  </div>
+                </div>
+        
+                <!-- Habitación 3 -->
+                <div class="slide">
+                  <img src="images/image1.png" alt="Suite Familiar">
+                  <div class="info">
+                    <h3>Suite Familiar</h3>
+                    <p>Ideal para familias, con dos habitaciones, jacuzzi y balcón privado.</p>
+                    <div class="servicios">
+                      <span>👨‍👩‍👧‍👦 4-6 personas</span>
+                      <span>🛏️ 3 camas</span>
+                      <span>📶 WiFi</span>
+                      <span>🍳 Cocina</span>
+                    </div>
+                    <div class="precio">
+                      <span class="valor">$320,000</span><span class="noche"> / noche</span>
+                    </div>
+                    <button class="btn-reservar">Reservar</button>
+                  </div>
+                </div>
+        
+              </div>
+            </div>
+          </section>
+    
+        <!-- servicios de hotel-->
+        <section class="servicios">
+          <div class="contenedor">
+              <h2 class="titulo">Servicios Exclusivos</h2>
+              <div class="tarjetas">
+                  <!-- Tarjeta 1 -->
+                  <div class="tarjeta">
+                      <img src="images/gastronomia" alt="Plato gourmet en restaurante exclusivo" class="imagen">
+                      <h3 class="subtitulo">Gastronomía</h3>
+                      <p class="descripcion">Sabores que deleitan, platos que enamoran.</p>
+                  </div>
+                  <!-- Tarjeta 2 -->
+                  <div class="tarjeta">
+                      <img src="images/spa y bienestar" alt="Área de spa y bienestar" class="imagen">
+                      <h3 class="subtitulo">Spa y Bienestar</h3>
+                      <p class="descripcion">Un refugio para renovar cuerpo y alma.</p>
+                  </div>
+                  <!-- Tarjeta 3 -->
+                  <div class="tarjeta">
+                      <img src="images/zonas humedas" alt="Piscina tranquila" class="imagen">
+                      <h3 class="subtitulo">Zonas Húmedas</h3>
+                      <p class="descripcion">Sumérgete en la tranquilidad de nuestras piscinas.</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+    </main>
+
+        <!-- ====== FOOTER ====== -->
+    <footer class="pie-pagina">
+        <div class="footer-contenido">
+        <div class="columna">
+            <h4>Hotel El Rincón del Carmen</h4>
+            <p>Experiencia de lujo y confort frente al mar. Tu descanso, nuestro compromiso.</p>
+        </div>
+        <div class="columna">
+            <h4>Enlaces rápidos</h4>
+            <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="reservas.html">Reservas</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="columna">
+            <h4>Contáctanos</h4>
+            <p>📍 Calle 123, Cartagena, Colombia</p>
+            <p>📞 +57 312 456 7890</p>
+            <p>✉️ contacto@hotelrincondelcarmen.com</p>
+        </div>
+        </div>
+        <div class="footer-copy">
+        © 2025 Hotel El Rincón del Carmen. Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+/* Campos del formulario */
+.campo-check-in {
+    margin-bottom: 1rem;
+}
+.campo label {
+  display: block;
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.3rem;
+}
+
+.campo input,
+.campo textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+  outline: none;
+  border-color: #d97706; /* ámbar */
+  box-shadow: 0 0 0 2px rgba(251, 191, 36, 0.4);
+}
